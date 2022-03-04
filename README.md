@@ -11,6 +11,53 @@ var pagedResult = DbContext.EntitySet.Where(/* where condition */).GetPaged(page
 example result:
 ```json
 {
- 
+  "Results": [
+    {
+      "Id": 1,
+      "Name": "Bar"
+    },
+    {
+      "Id": 2,
+      "Name": "Second Bar"
+    },
+    {
+      "Id": 3,
+      "Name": "Third Bar"
+    },
+    {
+      "Id": 4,
+      "Name": "Fourth Bar"
+    },
+    {
+      "Id": 5,
+      "Name": "Fifth Bar"
+    },
+    {
+      "Id": 6,
+      "Name": "Sixth Bar"
+    },
+    {
+      "Id": 7,
+      "Name": "Seventh Bar"
+    },
+    {
+      "Id": 8,
+      "Name": "Eight Bar"
+    },
+    {
+      "Id": 9,
+      "Name": "Ninth Bar"
+    },
+    {
+      "Id": 10,
+      "Name": "Tenth Bar"
+    }
+  ],
+  "CurrentPage": 1,
+  "PageCount": 0,
+  "PageSize": 10,
+  "RowCount": 14,
+  "FirstRowOnPage": 1,
+  "LastRowOnPage": 10
 }
 ```

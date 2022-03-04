@@ -3,6 +3,16 @@
     <PropertyGroup>
         <TargetFramework>netstandard2.1</TargetFramework>
         <Nullable>disable</Nullable>
+        <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+        <PackageId>Erwin32.EntityFrameworkCore.Extensions.Paging</PackageId>
+        <Title>EntityFrameworkCore Paging Extensions</Title>
+        <PackageProjectUrl>https://github.com/Erwin32/EntityFrameworkCore.Extensions.Paging</PackageProjectUrl>
+        <PackageLicenseUrl>https://github.com/Erwin32/EntityFrameworkCore.Extensions.Paging/blob/master/LICENSE</PackageLicenseUrl>
+        <RepositoryUrl>https://github.com/Erwin32/EntityFrameworkCore.Extensions.Paging</RepositoryUrl>
+        <PackageReleaseNotes>Initial Release</PackageReleaseNotes>
+        <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
+        <Authors>Petr Palas</Authors>
+        <Description>Simple IQueriable extension to get paged result of EF query.</Description>
     </PropertyGroup>
 
 </Project>

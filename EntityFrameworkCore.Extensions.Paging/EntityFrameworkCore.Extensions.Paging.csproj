@@ -1,7 +1,6 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
     <PropertyGroup>
-        <TargetFramework>netstandard2.1</TargetFramework>
         <Nullable>disable</Nullable>
         <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
         <PackageId>Erwin32.EntityFrameworkCore.Extensions.Paging</PackageId>
@@ -9,7 +8,7 @@
         <PackageProjectUrl>https://github.com/Erwin32/EntityFrameworkCore.Extensions.Paging</PackageProjectUrl>
         <PackageLicenseUrl></PackageLicenseUrl>
         <RepositoryUrl>https://github.com/Erwin32/EntityFrameworkCore.Extensions.Paging</RepositoryUrl>
-        <PackageReleaseNotes>Initial Release</PackageReleaseNotes>
+        <PackageReleaseNotes>Adding .net standard 2.0</PackageReleaseNotes>
         <PackageRequireLicenseAcceptance>True</PackageRequireLicenseAcceptance>
         <Authors>Petr Palas</Authors>
         <Description>Simple IQueriable extension to get paged result of EF query.</Description>
@@ -19,6 +18,8 @@
         <Version>1.0.0</Version>
         <PackageLicenseFile>LICENSE.txt</PackageLicenseFile>
         <PackageReadmeFile>README.md</PackageReadmeFile>
+        <TargetFrameworks>netstandard2.0;netstandard2.1</TargetFrameworks>
+        <PackageVersion>1.1.0</PackageVersion>
     </PropertyGroup>
 
 	<ItemGroup>
